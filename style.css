@@ -1,0 +1,385 @@
+/* ================= BODY ================= */
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  background-color: rgb(14, 14, 14) ;
+
+  overflow-x: hidden;
+}
+
+/* ================= ARKA PLAN ================= */
+
+body::before {
+  content: "";
+
+  position: fixed;
+
+  top: 20%;
+  right: 25%;
+
+  width: 34%;
+  height: 60%;
+
+  border-radius: 40%;
+
+  background: url("galaksi.jpg") center/cover no-repeat;
+
+  z-index: -1;
+}
+
+body::after {
+  content: "";
+
+  position: fixed;
+
+  bottom: 3%;
+  right: 2%;
+
+  width: 28%;
+  height: 45%;
+
+  border-top-left-radius: 65%;
+
+  background: url("galaksi2.jpg") center/cover no-repeat;
+
+  z-index: -1;
+}
+
+/* ================= HEADER ================= */
+
+.header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 55px 20px;
+}
+
+/* ================= SOL ================= */
+
+.left {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+}
+
+/* ================= İKONLAR ================= */
+
+.play-icon {
+  font-size: 42px;
+
+  color: white;
+
+  margin-left: 80px;
+}
+
+.icon {
+  font-size: 42px;
+
+  color: white;
+  margin-left: -11px;
+
+
+}
+
+/* ================= LOGO ================= */
+
+.logo {
+  display: flex;
+
+  flex-direction: column;
+
+  margin-left: 5px;
+
+  line-height: 0.9;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-weight: bold;
+}
+
+.template {
+  font-size: 22px;
+
+  color: white;
+}
+
+.dsgn {
+  font-size: 25px;
+
+  color: white;
+}
+
+/* ================= SAĞ MENÜ ================= */
+
+.right {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+}
+
+/* ================= BOX ================= */
+
+.box {
+  font-weight: bold;
+  position: relative;
+
+  padding: 5px 29px;
+
+  border-radius: 5px;
+
+  color: white;
+
+  cursor: pointer;
+}
+
+/* ================= SIGN IN ================= */
+
+.box6 {
+  font-weight: bold;
+  padding: 10px 50px;
+
+  border-radius: 40px;
+
+  background: rgb(0, 94, 255);
+
+  color: white;
+
+  cursor: pointer;
+  height: 32px;
+  display: flex;
+justify-content: center;
+align-items: center;
+  
+}
+
+.menu-icon {
+  font-size: 30px;
+}
+
+/* ================= ABOUT YAZI ================= */
+
+.about-box {
+  position: relative;
+}
+
+.about-text {
+  display: none;
+
+  position: absolute;
+
+  top: 40px;
+  left: 0;
+
+  width: 220px;
+
+  padding: 12px;
+
+  border-radius: 10px;
+
+  background: white;
+
+  color: black;
+
+  font-size: 14px;
+
+  z-index: 999;
+}
+
+.about-box:hover .about-text {
+  display: block;
+}
+
+/* ================= MAIN ================= */
+
+.main {
+  color: white;
+}
+
+/* ================= MAIN 1 ================= */
+
+.main1 {
+  margin-top: 130px;
+
+  margin-left: 100px;
+  
+  
+}
+
+/* ================= WELCOME ================= */
+
+h1 {
+  font-size: 9vw;
+
+  color: white;
+
+  margin-bottom: 60px;
+
+  position: relative;
+
+  top: 40px;
+}
+
+
+
+/* ================= SEARCH ================= */
+
+.search-box {
+  
+  display: flex;
+
+  align-items: center;
+
+  width: 670px;
+
+  height: 55px;
+
+  padding: 5px 15px;
+
+  border-radius: 300px;
+
+  background: rgb(14, 14, 14);
+  border: 1px solid white;
+}
+
+.search-box input {
+  flex: 1;
+
+  border: none;
+
+  outline: none;
+
+  font-size: 16px;
+   background: transparent; /* ⭐ önemli */
+  color: black; /* yazı görünür olsun */
+  
+}
+  
+.search-box button {
+  border: none;
+
+  background: none;
+
+  cursor: pointer;
+
+  font-size: 52px;
+  color: blue;
+  
+}
+
+/* ================= BUTTONS ================= */
+
+.buttons {
+  display: flex;
+
+  gap: 50px;
+
+  margin-top: 60px;
+
+}
+
+/* ================= BUTTON 1 ================= */
+
+.trial-btn {
+  padding: 12px 25px;
+
+  border: none;
+
+  border-radius: 30px;
+
+  background: linear-gradient(to right, #1da1ff, #007bff);
+
+  color: white;
+
+  font-size: 26px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+/* ================= BUTTON 2 ================= */
+
+.trial-btn2 {
+  padding: 12px 40px;
+
+  border: 1px solid white;
+
+  border-radius: 30px;
+
+  background: black;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 26px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+/* ================= ALT YAZI ================= */
+
+/* ================= MAIN 2 ================= */
+
+.main2 {
+  position: absolute;
+
+  right: 10%;
+  bottom: 40%;
+
+  width: 350px;
+
+  color: rgba(255, 255, 255, 0.893);
+}
+
+/* BAŞLIK */
+
+.main2 h2 {
+  font-size: 40px;
+
+  font-family: 'Times New Roman', Times, serif;
+
+  margin-bottom: 20px;
+}
+
+/* PARAGRAF */
+
+.main2 p {
+  width: 320px;
+
+  font-size: 17px;
+
+  line-height: 1.7;
+
+  text-align: left;
+
+  color: rgba(255, 255, 255, 0.85);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+  'Lucida Grande', 'Lucida Sans', Arial, sans-serif  
+
+}
+
+.mouse-icon {
+  position: absolute;
+
+  bottom: 30px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  color: #002e50 ;
+   
+  font-size: 25px;
+}
