@@ -1,4 +1,97 @@
-body {
-  background-color: red;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
+}
+
+body {
+  background: white  ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ortalama container */
+.container {
+  margin-left: 35%;
+}
+
+
+/* Login kutusu */
+.login-box {
+  background: 
+  border: 1px solid #dbdbdb;
+  padding: 40px;
+  width: 350px;
+}
+
+/* Instagram logo */
+.logo {
+  font-family: ;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Inputlar */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Divider */
+.divider {
+  margin: 15px 0;
+  font-size: 12px;
+  color: #999;
+}
+
+/* Linkler */
+.fb-login {
+  display: block;
+  margin: 10px 0;
+  color: #385185;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+.forgot {
+  font-size: 12px;
+  color: #00376b;
+  text-decoration: none;
+}
+
+/* Alt kutu */
+.signup-box {
+  margin-top: 10px;
+  padding: 20px;
+ background-color: transparent;
+  width: 350px;
+}
+
+.signup-box a {
+  color: #0095f6;
+  text-decoration: none;
+  font-weight: bold;
 }
