@@ -2,40 +2,68 @@ body {
   background: white;
 }
 
+.container {
+  margin-left: 35%;
+    color: black;
+
+}
 /* Login Box */
 
 .login-box {
-  width: 350px;
+  width: 120%;
+  
+  
+  
 
-  border: 1px solid #dbdbdb;
-
-  background: white;
+  background: transparent;
 }
 
 /* Logo */
 
 .logo {
-  font-size: 45px;
+  font-size: 20px;
 
-  font-weight: bold;
+  height: 150%;
+
+  margin-left: -60px;
+
 }
 
-/* Divider */
+.şifrenimi-unuttun  {
+  display: block;
 
-.divider {
-  color: #999;
+  background-color: rgba(255, 255, 255, 0.388);
 
-  font-size: 14px;
+  text-decoration: none;
+
+  color: black;
+ 
 }
+
 
 /* Facebook Login */
 
-.fb-login {
+.fb-giriş {
   text-decoration: none;
 
-  font-weight: bold;
+  background-color: white;
+  
+  color: black;
+  
+}
+.fb-icon {
+  width: 20px;
+  height: 20px;
+}
 
-  color: #385185;
+.yenihesap-giriş {
+  text-decoration: none;
+
+  background-color: white;
+  
+  color: rgb(18, 120, 215);
+
+
 }
 
 /* Forgot Password */
@@ -48,18 +76,21 @@ body {
   font-size: 13px;
 }
 
-/* Signup Box */
+.meta-giriş {
+  
+background-color: rgba(255, 255, 255, 0.388);
+text-decoration: none;
 
-.signup-box {
-  width: 350px;
-
-  border: 1px solid #dbdbdb;
-
-  background: white;
 }
 
-.signup-box a {
-  text-decoration: none;
+.meta-icon {
+  width: 20px;
+  height: 20px;
 
-  font-weight: bold;
 }
+
+
+
+
+
+
